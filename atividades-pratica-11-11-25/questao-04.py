@@ -12,14 +12,14 @@ produto = "Cadeira Infantil"
 preco_unitario = 12.40
 quantidade = 3
 
-print("O preço total da compra é R$ {:.2f}".format(preco_unitario * quantidade))
+preco_total = preco_unitario * quantidade
 
 
-
-
-
-
-
+print("Resumo da sua compra:")
+print("Produto:", produto)
+print("Preço unitário: R$ {:.2f}".format(preco_unitario))
+print("Quantidade:", quantidade)
+print("Preço total: R$ {:.2f}".format(preco_total))
 
 
 
